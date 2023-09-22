@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.text {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.text .text-item .id button, .text .text-item .id .box, .text .wrapper-item .item2, .text .wrapper-item .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text .wrapper-item {
+  width: 50%;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 80px;
+}
+.text .wrapper-item .item {
+  gap: 100px;
+}
+.text .wrapper-item .item span {
+  width: 90px;
+  height: 90px;
+  font-size: 37px;
+  border: 1px solid #B99674;
+  color: #B99674;
+  padding: 25px;
+}
+.text .wrapper-item .item .item1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 20px;
+  gap: 21px;
+  color: #B99674;
+}
+.text .wrapper-item .item .item1 .h4 {
+  color: #000;
+}
+.text .wrapper-item .item2 {
+  gap: 50px;
+}
+.text .wrapper-item .item2 i {
+  width: 90px;
+  height: 90px;
+  font-size: 37px;
+  border: 1px solid #B99674;
+  color: #B99674;
+  padding: 25px;
+}
+.text .text-item {
+  background: #B99674;
+  width: 50%;
+  height: 1000px;
+}
+.text .text-item .id {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 600px;
+  margin: 250px auto;
+  padding-top: 80px;
+  margin-bottom: 30px;
+  background-color: #fff;
+}
+.text .text-item .id .box {
+  flex-direction: column;
+  padding-bottom: 30px;
+  gap: 10px;
+}
+.text .text-item .id .box h3 {
+  font-size: 20px;
+}
+.text .text-item .id .box h1 {
+  font-size: 50px;
+}
+.text .text-item .id .wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  margin: 0 auto;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+.text .text-item .id .wrapper .form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+}
+.text .text-item .id button {
+  width: 450px;
+  height: 20px;
+  padding: 18px;
+  margin: 27px auto;
+  color: white;
+  background-color: #B99674;
+}/*# sourceMappingURL=style.css.map */
